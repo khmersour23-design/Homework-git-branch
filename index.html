@@ -1,235 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nova Studio</title>
-    <meta
-      name="description"
-      content="Nova Studio is a modern digital agency helping brands grow with strategy, design, and marketing."
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container nav">
-        <div class="logo">Nova<span>Studio</span></div>
-        <nav class="main-nav" aria-label="Main navigation">
-          <a href="#home">Home</a>
-          <a href="#features">Features</a>
-          <a href="#about">About</a>
-          <a href="#pricing">Pricing</a>
-          <a href="#contact">Contact</a>
-        </nav>
-        <a class="btn btn-primary" href="#contact">Get Started</a>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Studio | Handcrafted Artisanal Cakes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <a href="#" class="brand-logo">Sweet Studio</a>
+    <ul class="nav-links">
+      <li><a href="#featured">Our Cakes</a></li>
+      <li><a href="#process">How It Works</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <a href="#custom" class="btn-primary">Order Custom Cake</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="badge">Small Batch & Handcrafted</span>
+      <h1 class="hero-title">Baked with love,<br><em>styled for memories.</em></h1>
+      <p class="hero-subtitle">Artisanal cakes made-to-order in our licensed home kitchen using fresh, premium local ingredients.</p>
+      <div class="hero-actions">
+        <a href="#featured" class="btn-primary">Explore Menu</a>
+        <a href="#process" class="btn-secondary">How to Order</a>
       </div>
-    </header>
+    </div>
+    <div class="hero-image-wrapper">
+      <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Chocolate Layer Cake with Berries">
+    </div>
+  </section>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="container hero-layout">
-          <div class="hero-copy">
-            <span class="eyebrow">Smart design, stronger growth</span>
-            <h1>Build a standout brand that people remember.</h1>
-            <p>
-              We help startups and businesses turn ideas into polished digital
-              experiences that attract attention and drive results.
-            </p>
-            <div class="hero-actions">
-              <a class="btn btn-primary" href="#pricing">Start Project</a>
-              <a class="btn btn-secondary" href="#features">Learn More</a>
-            </div>
-            <ul class="hero-points" aria-label="Key benefits">
-              <li>Fast launch timelines</li>
-              <li>Conversion-focused design</li>
-              <li>Clear strategy support</li>
-            </ul>
-          </div>
+  <!-- Featured Cakes Section -->
+  <section id="featured" class="featured-section">
+    <div class="section-header">
+      <h2 class="section-title">Signature Creations</h2>
+      <p class="section-subtitle">Our most popular house flavors available with 48 hours notice</p>
+    </div>
 
-          <div class="hero-visual" aria-label="Dashboard preview">
-            <div class="dashboard-card main-card">
-              <div class="card-top">
-                <span class="dot red"></span>
-                <span class="dot yellow"></span>
-                <span class="dot green"></span>
-              </div>
-              <div class="chart-panel">
-                <div class="chart-bars">
-                  <span style="height: 35%"></span>
-                  <span style="height: 50%"></span>
-                  <span style="height: 70%"></span>
-                  <span style="height: 95%"></span>
-                  <span style="height: 80%"></span>
-                  <span style="height: 100%"></span>
-                </div>
-              </div>
-              <div class="metrics-row">
-                <div>
-                  <strong>24.8K</strong>
-                  <small>Visitors</small>
-                </div>
-                <div>
-                  <strong>89%</strong>
-                  <small>Engagement</small>
-                </div>
-              </div>
-            </div>
-            <div class="floating-card card-one">
-              <span class="label">Growth</span>
-              <strong>+146%</strong>
-            </div>
-            <div class="floating-card card-two">
-              <span class="label">Campaign</span>
-              <strong>Live</strong>
-            </div>
+    <div class="card-grid">
+      <!-- Cake Card 1 -->
+      <article class="cake-card">
+        <img src="https://images.unsplash.com/photo-1535141192574-5d4897c13136?auto=format&fit=crop&w=600&q=80" alt="Wild Berry Vanilla Cake">
+        <div class="cake-card-body">
+          <h3 class="cake-title">Wild Berry Vanilla</h3>
+          <p class="cake-description">Soft vanilla bean sponge, fresh seasonal berries, and light mascarpone buttercream.</p>
+          <div class="cake-card-footer">
+            <span class="price">From $45</span>
+            <button class="btn-secondary btn-sm">Order</button>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section class="stats" aria-label="Business statistics">
-        <div class="container stats-grid">
-          <div>
-            <strong>150+</strong>
-            <span>Projects launched</span>
-          </div>
-          <div>
-            <strong>96%</strong>
-            <span>Client satisfaction</span>
-          </div>
-          <div>
-            <strong>4.9/5</strong>
-            <span>Average rating</span>
-          </div>
-          <div>
-            <strong>12k</strong>
-            <span>Monthly leads</span>
+      <!-- Cake Card 2 -->
+      <article class="cake-card">
+        <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=600&q=80" alt="Salted Caramel Crunch Cake">
+        <div class="cake-card-body">
+          <h3 class="cake-title">Salted Caramel Crunch</h3>
+          <p class="cake-description">Rich dark chocolate layers with house-made caramel and toasted praline crumble.</p>
+          <div class="cake-card-footer">
+            <span class="price">From $50</span>
+            <button class="btn-secondary btn-sm">Order</button>
           </div>
         </div>
-      </section>
+      </article>
 
-      <section class="features section" id="features">
-        <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">Why choose us</span>
-            <h2>Everything your brand needs to grow.</h2>
-          </div>
-          <div class="feature-grid">
-            <article class="feature-card">
-              <div class="icon">01</div>
-              <h3>Brand Strategy</h3>
-              <p>
-                We define positioning, messaging, and audience insights that make
-                your business clear and memorable.
-              </p>
-            </article>
-            <article class="feature-card">
-              <div class="icon">02</div>
-              <h3>Modern Design</h3>
-              <p>
-                Clean interfaces, thoughtful visuals, and polished experiences to
-                keep people engaged.
-              </p>
-            </article>
-            <article class="feature-card">
-              <div class="icon">03</div>
-              <h3>Performance Marketing</h3>
-              <p>
-                Smart campaigns and conversion systems focused on measurable
-                growth and real traction.
-              </p>
-            </article>
+      <!-- Cake Card 3 -->
+      <article class="cake-card">
+        <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80" alt="Lemon Pistachio Bloom Cake">
+        <div class="cake-card-body">
+          <h3 class="cake-title">Lemon Pistachio Bloom</h3>
+          <p class="cake-description">Zesty lemon curd paired with finely crushed roasted pistachios and vanilla cream.</p>
+          <div class="cake-card-footer">
+            <span class="price">From $48</span>
+            <button class="btn-secondary btn-sm">Order</button>
           </div>
         </div>
-      </section>
+      </article>
+    </div>
+  </section>
 
-      <section class="showcase section" id="about">
-        <div class="container showcase-grid">
-          <div class="showcase-copy">
-            <span class="eyebrow">A partner for ambitious teams</span>
-            <h2>Design systems that move your business forward.</h2>
-            <p>
-              From early brand discovery to marketing execution, we build digital
-              experiences that align strategy with visual impact.
-            </p>
-            <ul>
-              <li>Creative direction and UX planning</li>
-              <li>Launch strategies for faster growth</li>
-              <li>Clear reporting and marketing insights</li>
-            </ul>
-          </div>
-          <div class="showcase-panel">
-            <div class="mini-card card-a">
-              <span>Audience fit</span>
-              <strong>92%</strong>
-            </div>
-            <div class="mini-card card-b">
-              <span>Conversion</span>
-              <strong>+38%</strong>
-            </div>
-            <div class="mini-card card-c">
-              <span>Traffic</span>
-              <strong>18.2K</strong>
-            </div>
-          </div>
-        </div>
-      </section>
+  <!-- How It Works Section -->
+  <section id="process" class="process-section">
+    <div class="section-header">
+      <h2 class="section-title">How Home Pickup Works</h2>
+      <p class="section-subtitle">Freshly baked specifically for your event date</p>
+    </div>
 
-      <section class="pricing section" id="pricing">
-        <div class="container">
-          <div class="section-heading">
-            <span class="eyebrow">Simple pricing</span>
-            <h2>Flexible plans for every stage.</h2>
-          </div>
-          <div class="pricing-grid">
-            <article class="price-card">
-              <h3>Starter</h3>
-              <div class="price">$49<span>/mo</span></div>
-              <ul>
-                <li>Landing page design</li>
-                <li>Brand starter kit</li>
-                <li>Monthly support</li>
-              </ul>
-              <a class="btn btn-secondary" href="#contact">Choose Plan</a>
-            </article>
-            <article class="price-card featured">
-              <div class="badge">Popular</div>
-              <h3>Growth</h3>
-              <div class="price">$99<span>/mo</span></div>
-              <ul>
-                <li>Full website design</li>
-                <li>Marketing strategy</li>
-                <li>Priority support</li>
-              </ul>
-              <a class="btn btn-primary" href="#contact">Choose Plan</a>
-            </article>
-            <article class="price-card">
-              <h3>Scale</h3>
-              <div class="price">$199<span>/mo</span></div>
-              <ul>
-                <li>Custom design systems</li>
-                <li>Campaign optimization</li>
-                <li>Dedicated team access</li>
-              </ul>
-              <a class="btn btn-secondary" href="#contact">Choose Plan</a>
-            </article>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer" id="contact">
-      <div class="container footer-content">
-        <div>
-          <div class="logo">Nova<span>Studio</span></div>
-          <p>Helping ambitious brands turn bold ideas into meaningful growth.</p>
-        </div>
-        <div class="footer-links">
-          <a href="#home">Home</a>
-          <a href="#features">Features</a>
-          <a href="#about">About</a>
-          <a href="#pricing">Pricing</a>
-        </div>
+    <div class="process-grid">
+      <div class="process-step">
+        <div class="step-number">1</div>
+        <h3 class="step-title">Select & Customise</h3>
+        <p class="step-text">Choose a signature flavor or submit a custom inquiry at least 48 hours in advance.</p>
       </div>
-    </footer>
-  </body>
+      <div class="process-step">
+        <div class="step-number">2</div>
+        <h3 class="step-title">Confirmation</h3>
+        <p class="step-text">We verify your pickup date and send an online invoice to secure your baking slot.</p>
+      </div>
+      <div class="process-step">
+        <div class="step-number">3</div>
+        <h3 class="step-title">Pickup & Enjoy</h3>
+        <p class="step-text">Collect your cake directly from our local studio or arrange neighborhood delivery.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="brand-logo light">Sweet Studio</span>
+        <p>Licensed Home Bakery • Local Pickup Only</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Sweet Studio. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
 </html>
